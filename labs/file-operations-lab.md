@@ -81,7 +81,41 @@ Record the actual output of the commands and verify that:
 
 ![practical-image](screenshots/1.png)
 
-## What I Learned
+## Troubleshooting
+
+* While creating a multiple directory, initially I was not used "-p" after I come to know it was used to create a parent & child directory.
+* I missed to change working path before creating files. So, it was created in a home directory. Then I removed the file and change the directory then create a file in required directory.
+
+## Execution Results
+
+**Environment:** Ubuntu Linux
+
+**Working Directory:** `/home/ubuntu/linux-labs/file-operations`
+
+### Tasks Completed
+
+* [x] Created practice files using `touch`
+* [x] Added content using `echo` and output redirection
+* [x] Copied a file using `cp`
+* [x] Renamed a file using `mv`
+* [x] Deleted a practice file using `rm`
+* [x] Verified file content using `cat`
+* [x] Compared original and backup using `diff`
+* [x] Saved verification results using `tee`
+
+### Verification
+
+**Command:**
+
+```bash
+diff file1.txt file1_backup.txt
+```
+
+**Result:** No output was produced, confirming that both files have identical content.
+
+**Final Status:** PASS — File operations and backup verification completed successfully.
+
+### What I Learned
 
 * Firstly, I checked in which path currently I am working using "pwd" command.
 * I was learned through this journey how to create a single directory and multiple directories using "-p" command.
@@ -91,9 +125,7 @@ Record the actual output of the commands and verify that:
 * Using "cat" command to view the content of the file in the terminal
 * Using "rm" command removed the file 
 * "ls -l" & "ls -la" is used to list the files in the directories. 
-
-## Troubleshooting
-
-* While creating a multiple directory, initially I was not used "-p" after I come to know it was used to create a parent & child directory.
-* I missed to change working path before creating files. So, it was created in a home directory. Then I removed the file and change the directory then create a file in required directory.
-
+* How to perform basic Linux file operations.
+* How to verify copied files using `diff`.
+* How to capture command output in a file using `tee`.
+* Why verification is important when performing Linux administration tasks.
