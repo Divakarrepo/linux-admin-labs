@@ -77,10 +77,6 @@ Record the actual output of the commands and verify that:
 * `notes-copy.txt` no longer exists.
 * `old-backup.txt` exists.
 
-## Screenshots
-
-![practical-image](screenshots/1.png)
-
 ## Troubleshooting
 
 * While creating a multiple directory, initially I was not used "-p" after I come to know it was used to create a parent & child directory.
