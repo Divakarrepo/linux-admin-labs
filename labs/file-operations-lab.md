@@ -125,3 +125,8 @@ diff file1.txt file1_backup.txt
 * How to verify copied files using `diff`.
 * How to capture command output in a file using `tee`.
 * Why verification is important when performing Linux administration tasks.
+
+  ### Terminal Screenshot
+
+![File Operations Lab](screenshots/file-operations-lab.png)
+
