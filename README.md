@@ -19,8 +19,11 @@ linux-admin-labs/
 │   └── file-management.md
 └── labs/
     └── file-operations-lab.md
+    └── permissions-lab.md
+    └── log-troubleshooting-lab.md
     └── screenshots/
         └── 1.png
+
 ```
 
 ## Topics Covered
