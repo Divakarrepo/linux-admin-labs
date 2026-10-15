@@ -18,6 +18,9 @@ linux-admin-labs/
 ├── commands/
 │   └── file-management.md
 └── labs/
+    └── bash-scripting/
+        └── Daily automatic backup.sh
+        └── Disk usage alert
     └── file-operations-lab.md
     └── permissions-lab.md
     └── log-troubleshooting-lab.md
